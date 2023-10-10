@@ -2,7 +2,12 @@
 #include <Arduino.h>
 #include <M5Stack.h>
 
-#define SerialSCS Serial1 // for Basic's PortA / RX/TX/V/G
+#if defined( ARDUINO_M5Stack_Core_ESP32 )
+  #define SerialSCS Serial1 // for Basic's PortA / RX/TX/V/G
+#elif defined(ARDUINO_M5STACK_Core2)
+  #define SerialSCS Serial2 // for Core2's PortA / RX/TX/V/G
+#endif
+
 
 void setup() {
   // Initialize M5Stack
@@ -10,8 +15,12 @@ void setup() {
   M5.Power.begin();
   // Initialize SerialPort
   Serial.begin(115200); // for PC (USB-Serial  already opened in M5.beguin)
-//  SerialSCS.begin(1000000); // for SCServo (Stack-chan bord include SignalConverter)
+
+#if defined( ARDUINO_M5Stack_Core_ESP32 )
   SerialSCS.begin(1000000, SERIAL_8N1, 22, 21); // for SCServo (Stack-chan bord include SignalConverter) // RX, TX
+#elif defined(ARDUINO_M5STACK_Core2)
+  SerialSCS.begin(1000000); // for SCServo (Stack-chan bord include SignalConverter)
+#endif
 }
 void loop() {
   // PC to SCServo
