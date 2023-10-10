@@ -22,7 +22,7 @@
 
 ※部品キットとしてスイッチサイエンスで委託販売予定です
 
-※部品キット版では、[組み立て手順](https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/Build/README.md)に沿って部品をはんだ付けしてください。／参考：[タカオ版Stack-chan_TakaoBaseの作り方]
+※部品キット版では、[組み立て手順](https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/Build/README.md)に沿って部品をはんだ付けしてください。／参考：[タカオ版Stack-chan_TakaoBaseの作り方](https://raspberrypi.mongonta.com/how-to-build-easy-stackchan-m5gobottom/)
 
 
 ## 他に用意するもの
