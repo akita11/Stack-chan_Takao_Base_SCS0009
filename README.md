@@ -9,7 +9,7 @@
 
 <img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009-2.jpg" width="240px">
 
-※完成品としてスイッチサイエンスで委託販売予定です
+※完成品として[スイッチサイエンスで委託販売中](https://www.switch-science.com/products/9288)です
 
 
 
@@ -20,7 +20,7 @@
 <img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009kit-2.jpg" width="240px">
 
 
-※部品キットとしてスイッチサイエンスで委託販売予定です
+※部品キットとして[スイッチサイエンスで委託販売中](https://www.switch-science.com/products/9289)です
 
 ※部品キット版では、[組み立て手順](https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/Build/README.md)に沿って部品をはんだ付けしてください。／参考：[タカオ版Stack-chan_TakaoBaseの作り方](https://raspberrypi.mongonta.com/how-to-build-easy-stackchan-m5gobottom/)
 
@@ -46,6 +46,7 @@
 ## シリアルサーボSCS0009の設定
 
 Feetech社のシリアルサーボSCS0009は、専用設定ツール[FD](https://gitee.com/ftservo/fddebug)を使ってIDや各種パラメータを設定することができます。特に今回のように2個のSCS0009を別々に使用する場合はそれぞれにIDを設定する必要があります。IDの初期値は1ですので、1つのSCC0009のIDを2に設定する必要があります。SCS0009の設定には[純正のボードFE-URT-1](https://akizukidenshi.com/catalog/g/gM-16295/)を使うこともできますが、このStack-chan_TakaoBaSE_SCS0009は簡易的に設定をするための回路が組み込まれています。ただし簡易的な回路のため、設定の読み出し・書き込みに失敗することもありますので、うまく読み出し・書き込みができない場合は、何度かリトライしてください。
+※この回路は、[@washishi](https://twitter.com/washishi)さんの[Xでの投稿](https://twitter.com/washishi/status/1589990730822725632)を参考にしました。
 
 <img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/config0.jpg" width="240px">
 
