@@ -5,9 +5,9 @@
 
 ## 表面実装部品版
 
-<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009_1.jpg" width="240px">
+<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009-1.jpg" width="240px">
 
-<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009_2.jpg" width="240px">
+<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009-2.jpg" width="240px">
 
 ※完成品としてスイッチサイエンスで委託販売予定です
 
@@ -15,14 +15,14 @@
 
 ## 挿入実装部品版
 
-<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009kit_1.jpg" width="240px">
+<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009kit-1.jpg" width="240px">
 
-<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009kit_2.jpg" width="240px">
+<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009kit-2.jpg" width="240px">
 
 
 ※部品キットとしてスイッチサイエンスで委託販売予定です
 
-※部品キット版では、[組み立て手順](https://github.com/akita11/Stack-chan_Takao_Base_SC0009/blob/main/Build/README.md)に沿って部品をはんだ付けしてください。／参考：[タカオ版Stack-chan_TakaoBaseの作り方]
+※部品キット版では、[組み立て手順](https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/Build/README.md)に沿って部品をはんだ付けしてください。／参考：[タカオ版Stack-chan_TakaoBaseの作り方]
 
 
 ## 他に用意するもの

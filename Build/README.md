@@ -1,8 +1,8 @@
 # Stack-chan_Takao_Base_SCS0009（部品キット版）の作り方
 
-<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009kit_1.jpg" width="240px">
+<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009kit-1.jpg" width="240px">
 
-<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009kit_2.jpg" width="240px">
+<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009kit-2.jpg" width="240px">
 
 挿入実装部品版（部品キット版）の組み立て手順です。
 
@@ -63,7 +63,7 @@
 
 <img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/Build/build12.jpg" width="240px">
 
-(3)抵抗(1kΩ)の足を、同じ用に折り曲げる。
+(3)抵抗(1kΩ)の足を、同じように折り曲げる。
 
 <img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/Build/build13.jpg" width="240px">
 
@@ -135,9 +135,9 @@
 
 浮いていないのを確認したら、残りをはんだ付けします。
 
-<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009kit_1.jpg" width="240px">
+<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009kit-1.jpg" width="240px">
 
-<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009kit_2.jpg" width="240px">
+<img src="https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/ScTB0009kit-2.jpg" width="240px">
 
 完成！
 
