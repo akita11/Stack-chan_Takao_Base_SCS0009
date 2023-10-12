@@ -1,6 +1,6 @@
 # Stack-chan_Takao_Base_SCS0009
 
-現時点で ｽﾀｯｸﾁｬﾝ を組み立てる最もシンプルな方法と思われる、[タカオさん](https://twitter.com/mongonta555)の[タカオ版](https://mongonta.booth.pm/)で[Feetech社のシリアルサーボSCS0009](https://www.switch-science.com/products/8042)を使うためのボードです。（※現行のタカオ版筐体はSCS0009は使用できませんが、近日中にSCS0009版が公開予定とのことです）。M5Stack本体と2個のシリアルサーボモータSCS0009用コネクタ、給電用のUSB TypeCコネクタがついたボードです。電源スイッチもついています。まるごと一式、タカオ版のサーボ固定部分(Bracket)に収納できます。市販のUSB Type-CコネクタつきのACアダプタ等をつないで給電して使用します。以下のように、本体の後ろ側からUSB Type-Cケーブルで給電して動作させることができます。
+現時点で ｽﾀｯｸﾁｬﾝ を組み立てる最もシンプルな方法と思われる、[タカオさん](https://twitter.com/mongonta555)の[タカオ版](https://mongonta.booth.pm/)で[Feetech社のシリアルサーボSCS0009](https://www.switch-science.com/products/8042)を使うためのボードです。（※[SCS0009用のタカオ版筐体](https://github.com/mongonta0716/3DPrinter_Models)とあわせて使用できます（近日中に頒布予定とのことです）。M5Stack本体と2個のシリアルサーボモータSCS0009用コネクタ、給電用のUSB TypeCコネクタがついたボードです。電源スイッチもついています。まるごと一式、タカオ版のサーボ固定部分(Bracket)に収納できます。市販のUSB Type-CコネクタつきのACアダプタ等をつないで給電して使用します。以下のように、本体の後ろ側からUSB Type-Cケーブルで給電して動作させることができます。
 
 
 ## 表面実装部品版
@@ -30,7 +30,7 @@
 - M5Stack本体 (Core BasicまたはCore2がおすすめ）
 - シリアルサーボモータ2個 [Feetech SCS0009](https://www.switch-science.com/products/8042)
 - Groveケーブル ([M5Stack用5cm](https://www.switch-science.com/products/8664)など。すでにM5StackのUNITなどで余っているものがあればそれでもOK）
-- 筐体（※準備中）／参考：["タカオ版"の筐体一式](https://mongonta.booth.pm/)、または[それの3Dデータ](https://github.com/meganetaaan/stack-chan/tree/dev/v1.0/case/contributed/mongonta_case_for_SG90_and_M5GoBottomBoard)を3Dプリント出力したものと必要なネジ類
+- 筐体[SCS0009用のタカオ版筐体](https://github.com/mongonta0716/3DPrinter_Models)を3Dプリント出力したもの（近日中にBoothで頒布予定とのことです）と必要なネジ類
 
 
 ## 使い方
