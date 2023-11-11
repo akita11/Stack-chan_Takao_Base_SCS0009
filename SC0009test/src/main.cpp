@@ -4,17 +4,19 @@
 
 #define SerialSCS Serial1 // for Basic's PortA / RX/TX/V/G
 
-
 void setup() {
   // Initialize M5Stack
   M5.begin(); 
   M5.In_I2C.release();  // Release internal I2C when using Port.A with UART.
 
   // Initialize SerialPort
+  // for SCServo (Stack-chan bord include SignalConverter)
 #if defined( ARDUINO_M5Stack_Core_ESP32 )
-  SerialSCS.begin(1000000, SERIAL_8N1, 22, 21); // for SCServo (Stack-chan bord include SignalConverter) // RX, TX
+  SerialSCS.begin(1000000, SERIAL_8N1, 22, 21); // RX, TX
 #elif defined(ARDUINO_M5STACK_Core2)
-  SerialSCS.begin(1000000, SERIAL_8N1, 33, 32); // for SCServo (Stack-chan bord include SignalConverter) // RX, TX
+  SerialSCS.begin(1000000, SERIAL_8N1, 33, 32); // RX, TX
+#elif defined(ARDUINO_M5Stack_ATOM)
+  SerialSCS.begin(1000000, SERIAL_8N1, 32, 26); // RX, TX
 #endif
 }
 void loop() {
