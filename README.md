@@ -22,7 +22,7 @@
 
 ※部品キットとして[スイッチサイエンスで委託販売中](https://www.switch-science.com/products/9289)です
 
-※部品キット版では、[組み立て手順](https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/Build/README.md)に沿って部品をはんだ付けしてください。／参考：[タカオ版Stack-chan_TakaoBaseの作り方](https://raspberrypi.mongonta.com/how-to-build-easy-stackchan-m5gobottom/)
+※部品キット版では、[組み立て手順](https://github.com/akita11/Stack-chan_Takao_Base_SCS0009/blob/main/Build/README.md)に沿って部品をはんだ付けしてください。
 
 
 ## 他に用意するもの
@@ -30,14 +30,12 @@
 - M5Stack本体 (Core BasicまたはCore2がおすすめ）
 - シリアルサーボモータ2個 [Feetech SCS0009](https://www.switch-science.com/products/8042)
 - Groveケーブル ([M5Stack用5cm](https://www.switch-science.com/products/8664)など。すでにM5StackのUNITなどで余っているものがあればそれでもOK）
-- 筐体[SCS0009用のタカオ版筐体](https://github.com/mongonta0716/3DPrinter_Models)を3Dプリント出力したもの（近日中にBoothで頒布予定とのことです）と必要なネジ類
+- 筐体[SCS0009用のタカオ版筐体](https://github.com/mongonta0716/3DPrinter_Models)を3Dプリント出力したものと必要なネジ類（[Boothで頒布中](https://booth.pm/ja/items/5186064)）
 
 
 ## 使い方
 
-※これはタカオ版の組み立て手順です。基本的には同じですが、SCS0009用筐体が公開された後で更新します。
-
-- 筐体の組み立てなどは、[タカオさんの手順](https://raspberrypi.mongonta.com/how-to-build-easy-stackchan-m5gobottom/)を参考に行います。
+- 筐体の組み立てなどは、[タカオさんの手順](https://booth.pm/ja/items/5186064)を参考に行います。
 - M5Stack本体と本ボードはGroveケーブルで接続します
 - 2個のサーボを本ボードに接続します。ボード上の「H1」側には水平方向（足側）のサーボを、「V2」側には上下方向（筐体側）のサーボを接続します。いずれも、サーボのGND側（茶色や黒のケーブル側）を、本ボードの端側（白マークのある側）に挿し込みます。
 - 本ボードを、Bracket（サーボを固定している部品）に収めます。必要に応じて両面テープやネジなどで固定してください。
